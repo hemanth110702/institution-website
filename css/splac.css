@@ -1,0 +1,32 @@
+.plcd{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px 0px;
+}
+#plt {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+  
+#plt th, #plt td {
+    text-align: left;
+    padding: 12px;
+}
+#plt tr {
+    border-bottom: 1px solid #ddd;
+}
+#plt tr.header, #plt tr:hover {
+    background-color: #f1f1f1;
+}
+.hdr{
+    text-align: center;
+    font-size: 15px;
+    color: #0b034d;
+    padding: 10px 0px;
+}

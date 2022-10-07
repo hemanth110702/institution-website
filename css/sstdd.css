@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.float-container {
+    display: flex;
+    height: 500px;
+    margin-left: 117px;
+    margin-right: 116px;
+}
+.left{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(1, 7, 17);
+}  
+.right{
+    width: 70%;
+    padding: 20px;
+    border: 2px solid white;
+    margin-left: 10px;
+    justify-content: center;
+    background-color: rgb(37, 45, 130);
+}  
+.pimg{
+    border-radius: 50%;
+}
+table{
+    margin-top: 5px;
+}
+th{
+    text-align: left;
+    display: flex;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: larger;
+    color: rgb(1, 7, 17);
+}
+td{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: large;
+    padding-left: 20px; 
+    color: #fff;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    color: red;
+}
+.circle-wrap {
+  margin: 10px auto;
+  width: 150px;
+  height: 150px;
+  background: #fefcff;
+  border-radius: 50%;
+  border: 1px solid #cdcbd0;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background: #d2eaf1;
+  line-height: 120px;
+  text-align: center;
+  margin-top: 14px;
+  margin-left: 14px;
+  color: #1e51dc;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+.mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #227ded;
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+@keyframes fill{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}

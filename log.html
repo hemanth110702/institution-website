@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" and dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login page</title>
+        <link rel="stylesheet" href="css/slog.css">
+        <link rel="icon" type="image/x-icon" href="images/Vignan_logo.png">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <button type="button" class="btn">Log In</button>
+                </div>
+                <a href="index.html" title="go to home"><img src="images/Vignan_logo.png"  alt="logo"  class="hi" ></a>
+                <div class="header">
+                    <h1><a href="index.html" title="go to home" style="text-decoration:none;color: #0b034d;">Vignan's IIT</a></h1>
+                </div>
+                <form id="login" name="f1" class="input-group" action="stdd.html" >
+                    <label>Institute mail:</label>
+                    <input type="email" name="insmail" class="input-field" placeholder="ex : 20l31a05d0@vignaniit.edu.in" value="20l31a05d0@vignaniit.edu.in" required>
+                    <label>Password:</label>
+                    <input type="password" name="pass" class="input-field" placeholder="ex : Mhk11" value="Mhk11" required>
+                    <br>
+                    <p style="font-size:10px"><br><a href="#">Forgot Password?</a></p>
+                    <button type="submit" class="submit-btn" onclick="return myfun()">Log In</button>
+                    <button type="submit" class="submit-btn" formaction="reg.html" >Register</button>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript">
+                function myfun(){
+                var mail = document.forms["f1"]["insmail"].value;
+                var pass = document.forms["f1"]["pass"].value;
+                if(mail=="20l31a05d0@vignaniit.edu.in" && pass=="Mhk11"){
+                    return true;
+                }
+                else{
+                    alert("invalid username or password");
+                    return false;
+                }
+            };
+
+        </script>
+    </body>
+</html>

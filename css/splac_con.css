@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: rgb(21, 3, 88);
+}
+#tcon {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+#tcon th, #tcon td {
+    text-align: left;
+    padding: 12px;
+}
+#tcon tr {
+    border-bottom: 1px solid #ddd;
+}
+  
+#tcon tr.thcon, #tcon tr:hover {
+    background-color: #f1f1f1;
+}

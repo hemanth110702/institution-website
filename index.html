@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" and dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+        <link rel="stylesheet" href="css/shome.css">
+        <link rel="icon" type="image/x-icon" href="images/Vignan_logo.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <img src="images/Logo.jpg" alt="Institute Image" class="lgim">
+        <nav class="stk">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="#">Departments</a>
+                    <ul>
+                        <li><a href="dept_cse.html">CSE</a></li>
+                        <li><a href="dept_ece.html">ECE</a></li>
+                        <li><a href="dept_eee.html">EEE</a></li>
+                        <li><a href="dept_civil.html">CIVIL</a></li>
+                        <li><a href="dept_mech.html">MECH</a></li>
+                        <li><a href="dept_it.html">IT</a></li>
+                    </ul>
+                </li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li>
+                    <a href="#">Placements</a>
+                    <ul>
+                        <li><a href="plac_ab.html">About T&P</a></li>
+                        <li><a href="pdf/training.pdf" target="_blank">Process</a></li>
+                        <li><a href="plac.html">Placements</a></li>
+                        <li><a href="plac_con.html">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="log.html">Login</a></li>
+                <li><a href="reg.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/slide1.jpg" class="ssimg"></div>
+                  <div class="swiper-slide"><img src="images/slide2.jpeg" class="ssimg"></div>
+                  <div class="swiper-slide"><img src="images/coe.jpeg" class="ssimg"></div>
+                  <div class="swiper-slide"><img src="images/slide3.jpeg" class="ssimg"></div>
+                  <div class="swiper-slide"><img src="images/slide5.jpg" class="ssimg"></div>
+                  <div class="swiper-slide"><img src="images/slide6.jpg" class="ssimg"></div>
+                  <div class="swiper-slide"><img src="images/slide7.jpg" class="ssimg"></div>
+                  ...
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+        </div>
+        <hr>
+        <div>
+            <h3><br>ABOUT VIIT</h3><br>
+            <p class="abviit">Vignan's Institute of Information Technology (VIIT) was established in 2002 in the City of Destiny, Visakhapatnam, to cater to the educational needs of the general public. It acquired Autonomous status in the year 2017 and NBA and NAAC(A+) accredited Institute. The experience gained by Vignan through its earlier institutions at Guntur has only helped in establishing very high quality standards right from the inception and also is one of the reasons for the success.</p><br>
+        </div>
+        <hr>
+        <div>
+            <br>
+            <h3>Chairman</h3>
+            <img src="images/Chairman.jpg" class="cm">
+            <p class="abviit">
+                Well Thought-out Reforms In Technical Education Is The Need Of The Hour" We, in India today, are living in a transitional era. On one hand, we are swamped by the global financial meltdown while on the other; we are witnessing a slow but sure revival of the manufacturing and agricultural sectors. It is evident that highly trained and skilled professionals will be needed in vast numbers to enable our country's transition towards industrial and financial self-sufficiency. In this changing scenario, technology will continue to be a major catalyst for enabling the country's transformation .So the demand for quality technical education in India is huge.
+                <p class="abviit">
+
+                    In Andhra Pradesh, we often mention with pride that the state has the largest number of technical/professional institutions to impart skill based education to fulfill the needs of the industry. But the fact remains that, in spite of the large number of engineers churned out from the 300 and odd colleges every year, there continues to be an unbridgeable gap between the needs of the Industry and the skill set that the engineering students possess. Thus we are faced with a paradoxical situation where employers keep scouting for employees and vice versa.<p>
+                        <p class="abviit">
+                            The problem is not difficult to analyze. In spite of possessing impressive infrastructure and high-tech labs, the quality of technical education imparted in most engineering colleges is woefully poor. Despite the proliferation of colleges, the demand for holistic engineering education remains as high as ever. A keen introspection by the administrative authorities both at the planning and executive level is needed to evolve effective supervisory and regulatory mechanisms so as to reinforce good standards of technical education. Unscrupulous practices compromising on the quality of education need to be checked. All engineering colleges in the state should vie with each other to develop wholesome systems contributing to innovative teaching - learning practices, which will upscale the educational standards in the state and serve the future generation of students in realizing their dreams.
+                        </p>
+                            <h5 style="text-align: center;">Dr.L Rathaiah</h5><br><hr><br><br>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,    
+            },
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        });
+        </script>
+    </body>
+</html>

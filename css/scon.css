@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-box{
+    background: rgb(250, 250, 251);
+    display: flex;
+    width: 80%;
+    margin-left: 117px;
+}
+.contact-left{
+    flex-basis: 40%;
+    padding: 40px 60px;
+    margin-left: 117px;
+    color: rgb(5, 7, 50);
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    color: rgb(5, 7, 50);
+}
+h1{
+    margin-bottom: 10px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.contact-left h4{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact-right h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1c00b5;
+    text-align: center;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px ;
+}
+h2{
+    text-align: center;
+    color: rgb(8, 49, 125);
+}
+table{
+    padding-top: 0px ;
+}
+.ol{
+    color: #1c00b5;
+
+}

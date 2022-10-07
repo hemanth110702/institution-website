@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ssimg{
+    width:100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide{
+    width: 100%;
+}
+.swiper .swipper-button-prev, .swiper .swipper-button-next{
+    color:#fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: rgb(225, 46, 15);
+}
+.lgim{
+    width: 80%;
+    height: 150px;
+    margin-left: 117px;
+}
+.cm{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px;
+    border-radius: 4px;
+    border:  1px solid #ddd;
+    height: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: rgb(47, 51, 191);
+    text-align: center;
+}
+.stk{
+    width: 80%;
+    height: 50px;
+    background: rgb(47, 51, 191);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+    justify-content: center;
+    margin-left: 117px;
+}
+
+.stk ul{
+    display: flex;
+    margin: 0;
+    padding: 0 37px;
+    float: none;
+    list-style: none;
+}
+.stk ul li{
+    list-style: none;
+}
+.stk ul li a{
+    display: block;
+    color: #fff;
+    padding: 0px 20px; 
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight:100;
+    line-height: 50px;  
+}
+.stk ul li ul{
+    background: #000033;
+}
+.stk ul li ul li{
+    float: none;
+    border-bottom: 1px solid white;
+    padding: 0px 0px;
+    display: inline;
+}
+.stk ul li ul{
+    display: none;
+}
+.stk ul li:hover ul{
+    display: block;
+}
+p{
+    text-align: justify,center;
+}
+.stk ul li a:hover {
+    color: rgb(26, 11, 87);
+    background-color: rgb(225, 46, 15);
+}
+.blk{
+    background-color: rgb(49, 177, 189);
+    color: rgb(3, 41, 14);
+    padding:0 25px; 
+}
+h3{
+    text-align: center;
+    color: rgb(8, 49, 125);
+}
+div .abviit{
+    text-align: justify;
+    width: 90%;
+    padding: 15px 0px;
+    padding-left: 125px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(21, 3, 88);
+    background-color: rgb(21, 3, 88);
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}

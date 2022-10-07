@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: rgb(21, 3, 88);
+}
+h2,h3{
+    text-align: center;
+    color: rgb(47, 51, 191);
+}
+.cse{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 350px;
+}
+div .csed{
+    text-align: justify;
+    width: 90%;
+    padding: 15px 0px;
+    padding-left: 125px;
+}

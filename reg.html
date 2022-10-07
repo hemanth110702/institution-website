@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" and dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reisteration Page</title>
+        <link rel="stylesheet" href="css/sregp.css">
+        <link rel="icon" type="image/x-icon" href="images/Vignan_logo.png">
+        <script >
+            function mf()
+            {
+                var user = document.f2.username.value;
+                var roll = document.f2.rollno.value;
+                var imail = document.f2.insmail.value;
+                var pass = document.f2.password.value;
+                if(user.length< 5){
+                    alert("enter a valid username");
+                }
+                else if(roll.length != 10){
+                    alert("enter a valid roll no");
+                }
+                else if(imail.length != 27){
+                    alert("enter a valid institution mail");
+                }
+                else if(pass.length<5){
+                    alert("please input a valid password");
+                }
+                else{
+                    window.open("log.html");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <button type="button" class="btn">Register</button>
+                </div>
+                <a href="index.html" title="go to home"><img src="images/Vignan_logo.png"  alt="logo"  class="hi" ></a>
+                <div class="header">
+                    <h1><a href="index.html" title="go to home" style="text-decoration:none;color: #0b034d;">Vignan's IIT</a></h1>
+                </div>
+                <form name="f2" id="register" class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="input-field" name="username" placeholder="Enter full name" required>
+                    <label for="rollno">Roll no:</label>
+                    <input type="text" class="input-field" name="rollno" placeholder="Enter roll no" required>
+                    <label for="ins-mail">Institute mail:</label>
+                    <input type="email" class="input-field" name="insmail" placeholder="Enter institue mail your" required>
+                    <label for="password">Password:</label>
+                    <input type="password" class="input-field" name="password" placeholder="Enter Password" required>
+                    <br>
+                    <button type="submit" class="submit-btn" onclick="mf();" name="submit" >Register</button>
+                    <button type="submit" class="submit-btn" onclick="location.href ='log.html';" name="submit" >Log In</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

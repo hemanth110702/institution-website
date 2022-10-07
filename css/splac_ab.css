@@ -1,0 +1,28 @@
+.hdr{
+    text-align: center;
+    font-size: 15px;
+    color: #0b034d;
+    padding: 10px 0px;
+}
+.plcd{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px 0px;
+}
+h2,h3{
+    text-align: center;
+    color: rgb(47, 51, 191);
+}
+.ood {
+    text-align: justify;
+    width: 90%;
+    padding: 15px 0px;
+    padding-left: 125px;
+}
+div .csed{
+    text-align: justify;
+    width: 90%;
+    padding: 15px 0px;
+    padding-left: 125px;
+}
