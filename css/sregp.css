@@ -24,9 +24,9 @@
 }
 .button-box{
     width: 100px;
-    margin: 15px auto;
+    margin: 5px auto;
     position: relative;
-    border: 30px;
+   
     text-align: center;
     background-color: #0e63ae;
     border-radius: 30px;
@@ -62,7 +62,7 @@
 }
 .input-field{
     width:100%;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: 5px 0;
     border-left: 0;
     border-top: 0;
@@ -86,3 +86,11 @@
     color: #fff;
     margin-top: 10px;
 }
+form{
+    margin-top: -40px;
+}
+label{
+    font-size: small;
+}
+input.radio 
+{ display: inline; }
