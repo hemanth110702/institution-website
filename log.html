@@ -33,6 +33,9 @@
                 function myfun(){
                 var mail = document.forms["f1"]["insmail"].value;
                 var pass = document.forms["f1"]["pass"].value;
+                var em=/^[a-zA-Z0-9+_.-@]{27}/;
+                var res = em.test(mail);
+                if(res){
                 if(mail=="20l31a05d0@vignaniit.edu.in" && pass=="Mhk11"){
                     return true;
                 }
@@ -40,7 +43,12 @@
                     alert("invalid username or password");
                     return false;
                 }
-            };
+                }
+                else{
+                    alert("wrong mail entered!!!");
+                    return false;
+                }
+            }
 
         </script>
     </body>
