@@ -13,9 +13,9 @@
     position: absolute;
 }
 .form-box{
-    top: -50px;
+    top: -55px;
     width: 380px;
-    height: 475px;
+    height: 500px;
     position: relative;
     margin: 6% auto;
     background: rgb(246, 246, 248);
@@ -92,5 +92,6 @@ form{
 label{
     font-size: small;
 }
-input.radio 
-{ display: inline; }
+input.radio{ 
+    display: inline; 
+}
