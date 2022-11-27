@@ -37,7 +37,7 @@ th{
     color: rgb(1, 7, 17);
 }
 td{
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
     font-size: large;
     padding-left: 20px; 
@@ -84,6 +84,7 @@ h2{
   z-index: 100;
   font-weight: 700;
   font-size: 2em;
+  
 }
 .mask .fill {
   clip: rect(0px, 75px, 150px, 0px);
