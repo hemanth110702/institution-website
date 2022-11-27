@@ -9,7 +9,7 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: #fff;
     display: flex;
     align-items: center;
@@ -30,17 +30,17 @@
 }
 .lgim{
     width: 80%;
-    height: 150px;
-    margin-left: 117px;
+    height: 28.55vh;
+    margin-left: 22.2vh;
 }
 .cm{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding: 50px;
-    border-radius: 4px;
-    border:  1px solid #ddd;
+    padding: 9.5vh;
+    border-radius: 0.75vh;
+    border:  0.2vh solid #ddd;
     height: auto;
 }
 body{
@@ -50,13 +50,13 @@ body{
 }
 nav{
     width: 100%;
-    height: 50px;
+    height: 9.5vh;
     background: rgb(47, 51, 191);
     text-align: center;
 }
 .stk{
     width: 80%;
-    height: 50px;
+    height: 9.5vh;
     background: rgb(47, 51, 191);
     border-top: 1px solid rgba(255,255,255,.2);
     border-bottom: 1px solid rgba(255,255,255,.2);
@@ -64,13 +64,13 @@ nav{
     top: 0%;
     z-index: 99;
     justify-content: center;
-    margin-left: 117px;
+    margin-left: 20.9vh;
 }
 
 .stk ul{
     display: flex;
     margin: 0;
-    padding: 0 37px;
+    padding: 0 7vh;
     float: none;
     list-style: none;
 }
@@ -80,18 +80,18 @@ nav{
 .stk ul li a{
     display: block;
     color: #fff;
-    padding: 0px 20px; 
+    padding: 0px 3.8vh; 
     text-decoration:none;
     text-transform: uppercase;
-    font-weight:100;
-    line-height: 50px;  
+    font-weight:19vh;
+    line-height: 9.5vh;  
 }
 .stk ul li ul{
     background: #000033;
 }
 .stk ul li ul li{
     float: none;
-    border-bottom: 1px solid white;
+    border-bottom: 0.2vh solid white;
     padding: 0px 0px;
     display: inline;
 }
@@ -120,14 +120,15 @@ h3{
 div .abviit{
     text-align: justify;
     width: 90%;
-    padding: 15px 0px;
-    padding-left: 125px;
+    padding: 2.8vh 0px;
+    padding-left: 23.8vh;
 }
 hr{
-    width: 80%;
+    width: 80%;             
     margin: 0 auto;
     border: 1px solid rgb(21, 3, 88);
     background-color: rgb(21, 3, 88);
+    
 }
 @media only screen and (max-width:800px) {
     /* For tablets: */
