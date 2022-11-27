@@ -13,6 +13,9 @@
                 var roll = document.f2.rollno.value;
                 var imail = document.f2.insmail.value;
                 var pass = document.f2.password.value;
+                var exp=/^[0]?[789]\d{9}$/;
+                var mobno = document.f2.mob.value;
+                var res = exp.test(mobno);
                 if(user.length< 5){
                     alert("enter a valid username");
                 }
@@ -24,6 +27,9 @@
                 }
                 else if(pass.length<5){
                     alert("please input a valid password");
+                }
+                else if(!res){
+                    alert("check mobile number");
                 }
                 else{
                     window.open("log.html");
@@ -46,13 +52,15 @@
                     <input type="text" class="input-field" name="username" placeholder="Enter full name" required>
                     <label for="rollno">Roll no:</label>
                     <input type="text" class="input-field" name="rollno" placeholder="Enter roll no" required>
-                    <label for="ins-mail">Institute mail:</label>
+                    <label for="insmail">Institute mail:</label>
                     <input type="email" class="input-field" name="insmail" placeholder="Enter institue mail your" required>
                     <label for="password">Password:</label>
                     <input type="password" class="input-field" name="password" placeholder="Enter Password" required>
+                    <label for="mob">Mobile no:</label>
+                    <input type="text" class="input-field" name="mob" required>
                     <label for="dob">Dob:</label>
                     <input type="date" class="input-field" name="dob" required>
-                    <p>Gender:</p>
+                    <label>Gender:</label>
                     <input type="radio" class="radio" id="male" name="gen" value="male" required><label for="male">male</label>
                     <input type="radio" class="radio" id="female" name="gen" value="female"><label for="female">female</label>
                     <br>
