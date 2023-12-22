@@ -1,12 +1,14 @@
 # Institution-Website
 
-### [Live Site] (https://hemanth110702.github.io/institution-website/)
+### [Live Site](https://hemanth110702.github.io/institution-website/)
 
 # Introduction 
 
-- This is an institution website where it contain details about the institution, placements , management and also login and registration for viewing student data
+- Explore comprehensive details about our institution, including information on branches, faculty, and management.
 
-- Done with HTML, CSS and JS
+- Access insights into past placements and learn more about our commitment to academic excellence.
+
+- Utilize the login and registration features to securely view student-specific data.
 
 
 ## SCREENSHOTS
